@@ -2,11 +2,11 @@
 
 # --------- CONFIG ---------
 NAME="Divy Pathak"
-ROLE="Full Stack Developer | Backend-leaning"
+ROLE="Full Stack Developer | Linux Enthusiast | Njr ⚽❤️"
 EMAIL="pathakdivy03@gmail.com"
 GITHUB="https://github.com/divy-03"
 LINKEDIN="https://linkedin.com/in/pathakdivy03"
-PORTFOLIO="https://your-portfolio-link"
+PORTFOLIO="https://termfolio-three.vercel.app"
 
 # --------- COLORS ---------
 RESET="\033[0m"
@@ -52,41 +52,41 @@ echo
 echo -e "${CYAN}${BOLD}"
 typewriter "👋 Hi, I'm $NAME"
 echo -e "${RESET}${WHITE}${ROLE}${RESET}"
+echo -e "I build backends that defend like a solid back four and frontends that score in style."
 divider
 
 echo -e "${GREEN}${BOLD}🎓 Education${RESET}"
 typewriter "B.Tech in Computer Science & Engineering"
-typewriter "VIT Bhopal | CGPA: 7.77"
 echo
 divider
 
-echo -e "${MAGENTA}${BOLD}🚀 Projects${RESET}"
+echo -e "${MAGENTA}${BOLD}� Who is Divy?${RESET}"
 
-typewriter "• DocAI — Intelligent Document Automation Platform"
-echo -e "${DIM}  FastAPI | React | PostgreSQL | Docker | Gemini API${RESET}"
+echo -e "${MAGENTA}${BOLD}"
+cat <<'ASCII'
+________  .__               __________         __  .__            __    
+\______ \ |__|__  _____.__. \______   \_____ _/  |_|  |__ _____  |  | __
+ |    |  \|  \  \/ <   |  |  |     ___/\__  \\   __\  |  \\__  \ |  |/ /
+ |    `   \  |\   / \___  |  |    |     / __ \|  | |   Y  \/ __ \|    < 
+/_______  /__| \_/  / ____|  |____|    (____  /__| |___|  (____  /__|_ \
+        \/          \/                      \/          \/     \/     \/
+ASCII
+echo -e "${RESET}"
+typewriter "A terminal-first human: I live in TTYs, tweak dotfiles and sip coffee."
+echo -e "${DIM}Linux tinkering, learning something new and chasing perfect music.${RESET}"
 echo
-
-typewriter "• Carido — AI-Powered Car Marketplace"
-echo -e "${DIM}  Next.js | TypeScript | Prisma | PostgreSQL | ImageKit${RESET}"
-echo
-
-typewriter "• JSON-RPC Load Balancer"
-echo -e "${DIM}  Node.js | TypeScript | Distributed Systems${RESET}"
+typewriter "Interests: ⚽ Football watcher | 🎧 Audiophile | 🐧 Linux tinkerer | 🖥️ Terminal nerd"
 divider
 
-echo -e "${BLUE}${BOLD}🛠 Technical Skills${RESET}"
+echo -e "${BLUE}${BOLD}🛠 Tech & Toys${RESET}"
 typewriter "Frontend : Next.js, React, TypeScript, Tailwind, Zustand, GSAP"
-typewriter "Backend  : Node.js, Express, FastAPI, Prisma"
+typewriter "Backend  : Node.js, Express, FastAPI, Prisma, Bun, Elysia"
 typewriter "Databases: PostgreSQL, MongoDB, Redis"
 typewriter "DevOps   : Docker, CI/CD, Linux, Nginx"
-typewriter "Languages: C++, JavaScript, TypeScript, Python"
+typewriter "Languages: C++, JavaScript, TypeScript, Rust, Python, Bash"
+typewriter "Tools    : NeoVim, Git, Postman, n8n, AWS"
 divider
 
-echo -e "${YELLOW}${BOLD}🏆 Achievements${RESET}"
-typewriter "Hacktoberfest Super Contributor 2025"
-typewriter "IBM DevOps Fundamentals"
-typewriter "JLPT N5 – Japanese Language Certification"
-divider
 
 echo -e "${CYAN}${BOLD}🔗 Links${RESET}"
 echo -e "${WHITE}GitHub   : ${GREEN}$GITHUB${RESET}"
