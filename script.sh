@@ -87,7 +87,6 @@ typewriter "Languages: C++, JavaScript, TypeScript, Rust, Python, Bash"
 typewriter "Tools    : NeoVim, Git, Postman, n8n, AWS"
 divider
 
-
 echo -e "${CYAN}${BOLD}🔗 Links${RESET}"
 echo -e "${WHITE}GitHub   : ${GREEN}$GITHUB${RESET}"
 echo -e "${WHITE}LinkedIn : ${GREEN}$LINKEDIN${RESET}"
@@ -95,5 +94,6 @@ echo -e "${WHITE}Email    : ${GREEN}$EMAIL${RESET}"
 echo -e "${WHITE}Portfolio: ${GREEN}$PORTFOLIO${RESET}"
 divider
 
-echo -e "${DIM}Thanks for stopping by. Built with ❤️ for the terminal.${RESET}"
+echo -e "${DIM}Thanks for stopping by. Built with ❤️ and updated at $(date) .${RESET}"
+
 echo
